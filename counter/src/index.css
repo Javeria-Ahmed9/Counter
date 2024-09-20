@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1551554781-c46200ea959d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvdW50ZXJ8ZW58MHx8MHx8fDA%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  font-size: 90px;
+  color: azure;
+  text-align: center;
+}
+
+header {
+  Color: rgb(46, 35, 212);
+  font-size: 40px;
+  margin-bottom: 44px;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 2px 3px #df6d6d;
+  
+}
+
+#one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#two {
+  box-shadow: rgba(64, 64, 218, 0.904) 0px 50px 100px -20px, rgba(222, 44, 44, 0.966) 0px 30px 60px -30px;
+  background-color: rgb(32, 32, 48);
+  height: 320px;
+  width: 300px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn1,
+#btn2 {
+  border: 1px solid rgb(216, 216, 235);
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  margin: 30px 30px 0px 30px;
+  border-radius: 50px;
+}
+svg{
+  margin-top: 4px;
+  margin-left: 1px;
+  height: 30px;
+  width: 30px;
+}
+#jp {
+  background-color: rgb(181, 59, 161);
+  margin-top: 2px;
+  padding-top: 4px;
+  font-size: 13px;
+  border: 2px solid rgb(213, 169, 169);
+}
+
+@media (max-width:460px){
+  span {
+    font-size: 50px;
+  }
+  
+  header {
+    text-shadow: 2px 2px #ff0000;
+    margin-bottom: 105px;
+    margin-top: 75px;
+    font-size: 35px;
+    text-shadow: 2px 4px #df6d6d;
+  }
+  
+  
+  #two {
+
+    height: 220px;
+    width: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+  }
+  
+  #btn1,
+  #btn2 {
+    border: 1px solid rgb(216, 216, 235);
+  }
+  
+  button {
+    height: 40px;
+    width: 40px;
+    margin: 33px 20px 0px 20px;
+  }
+  svg{
+   padding-bottom: 4px;
+    height: 22px;
+    width: 22px;
+  }
+  #jp {
+
+   
+    padding-top: 1px;
+    font-size: 9px;
+
+  }
+}
